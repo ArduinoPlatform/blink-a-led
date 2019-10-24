@@ -1,0 +1,6 @@
+echo "# blink-a-led" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ArduinoPlatform/blink-a-led.git
+git push -u origin master
